@@ -1,0 +1,87 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0a0f1f;
+  /* Тёмно-синий */
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #1e90ff;
+  font-size: 32px;
+  margin-top: 90px;
+  margin-bottom: 100px;
+}
+
+.btn {
+  width: 90%;
+  max-width: 400px;
+  padding: 18px;
+  margin: 20px 0;
+  font-size: 20px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: #187bcd;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 12px;
+  width: 80%;
+  max-width: 400px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+.back-arrow {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 28px;
+  text-decoration: none;
+  color: white;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.back-arrow:hover {
+  opacity: 1;
+}
+
+.channel-item {
+  width: 80%;
+  max-width: 400px;
+  padding: 15px;
+  margin: 10px auto;
+  background-color: #1e2a44;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.channel-item:hover {
+  background-color: #2a3b5a;
+}
+
+.channel-item h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.channel-item p {
+  margin: 5px 0 0;
+  font-size: 16px;
+}
